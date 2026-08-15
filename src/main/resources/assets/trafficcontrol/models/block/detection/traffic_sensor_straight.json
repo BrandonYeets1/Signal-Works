@@ -1,0 +1,20 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "block/cube",
+	"render_type": "cutout",
+	"textures": {
+		"0": "trafficcontrol:block/prop_traffic_sensor_straight",
+		"particle": "trafficcontrol:block/prop_traffic_sensor_straight"
+	},
+	"elements": [
+		{
+			"name": "road_decal_surface",
+			"from": [-16, 0, -16],
+			"to": [32, 0.1, 32],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

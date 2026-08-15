@@ -1,0 +1,39 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/detection/traffic_sensor_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/detection/traffic_sensor_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/detection/traffic_sensor_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/detection/traffic_sensor_right",
+        "y": 270
+      }
+    }
+  ]
+}

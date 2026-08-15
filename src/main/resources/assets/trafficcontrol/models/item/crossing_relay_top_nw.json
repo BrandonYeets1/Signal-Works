@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "trafficcontrol:item/icons/crossing_relay_top_nw"
+  }
+}

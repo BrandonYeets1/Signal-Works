@@ -1,0 +1,39 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/guardrails/guardrail_led"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/guardrails/guardrail_led",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/guardrails/guardrail_led",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/guardrails/guardrail_led",
+        "y": 270
+      }
+    }
+  ]
+}

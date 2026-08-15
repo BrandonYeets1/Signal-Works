@@ -1,0 +1,13 @@
+Traffic Control Milestone 2.8 static validation
+Combined JSON files parsed: 376
+Java files structurally checked: 36
+Block registry IDs found: 68 (duplicates: 0)
+Item registry IDs found: 67 (duplicates: 0)
+New registry/resource IDs checked: 7
+Patch file count: 48
+PNG files in patch before report: 1 (src/main/resources/trafficcontrol.png)
+Unchanged texture payload included: no
+Errors: 0
+
+PASS: static source/resource/package checks completed with no detected errors.
+NOTE: Full Gradle compilation was unavailable because the sandbox cannot reach services.gradle.org.

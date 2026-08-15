@@ -1,0 +1,8 @@
+{
+  "multipart": [
+    {"when":{"facing":"south"},"apply":{"model":"trafficcontrol:block/signals/prop_traffic_arm_3bulb"}},
+    {"when":{"facing":"west"},"apply":{"model":"trafficcontrol:block/signals/prop_traffic_arm_3bulb","y":90}},
+    {"when":{"facing":"north"},"apply":{"model":"trafficcontrol:block/signals/prop_traffic_arm_3bulb","y":180}},
+    {"when":{"facing":"east"},"apply":{"model":"trafficcontrol:block/signals/prop_traffic_arm_3bulb","y":270}}
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "base": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_pole_large"
+      }
+    },
+    {
+      "when": {
+        "base": "false"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_pole_large_core"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_large_branch"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_large_branch",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_large_branch",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_large_branch",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
+}

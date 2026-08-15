@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trafficcontrol:block/road_decals/road_decal_merge_left",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "trafficcontrol:block/road_decals/road_decal_merge_left",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trafficcontrol:block/road_decals/road_decal_merge_left",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trafficcontrol:block/road_decals/road_decal_merge_left",
+      "y": 270
+    }
+  }
+}

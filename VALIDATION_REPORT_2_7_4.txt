@@ -1,0 +1,11 @@
+Traffic Control NeoForge 1.21.1 — Milestone 2.7.4 Static Validation
+
+Active JSON files parsed: 355
+Inventory icon PNGs unchanged: True (61 files)
+Front-mount model rear depth verified: Z=7..12
+Old 8.5-pixel standoff penetration removed: True
+Java brace balance: True
+
+Gradle compile: not run (sandbox cannot reach services.gradle.org)
+
+Errors: 0

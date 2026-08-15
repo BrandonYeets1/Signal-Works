@@ -1,0 +1,363 @@
+{
+  "credit": "Made with Blockbench",
+  "elements": [
+    {
+      "from": [
+        4,
+        6,
+        12
+      ],
+      "to": [
+        12,
+        11,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            6.0,
+            1.25
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            5.0,
+            6.25,
+            5.25,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            1.25,
+            6.0,
+            2.5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            6.25,
+            5.5,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.75,
+            6.0,
+            4.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            8.0,
+            4.75,
+            6.0,
+            5.0
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        7,
+        13
+      ],
+      "to": [
+        12,
+        11,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            4.5,
+            4.0,
+            5.5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            2.5,
+            7.0,
+            3.5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            5.0,
+            6.0,
+            6.0
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            3.5,
+            7.0,
+            4.5
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            2.0,
+            6.5,
+            0.0,
+            5.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            4.0,
+            5.5,
+            2.0,
+            6.5
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        5,
+        3
+      ],
+      "to": [
+        12,
+        11,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            0.0,
+            4.0,
+            1.5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            1.5,
+            4.0,
+            3.0
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            3.0,
+            4.0,
+            4.5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            5.5
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            2.0,
+            2.0,
+            0.0,
+            0.0
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            2.0,
+            2.0,
+            0.0,
+            4.0
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        5,
+        1
+      ],
+      "to": [
+        12,
+        10,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            2.5,
+            6.0,
+            3.75
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            6.0,
+            4.5,
+            7.25
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            3.75,
+            6.0,
+            5.0
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            6.0,
+            5.0,
+            7.25
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            2.0,
+            6.0,
+            1.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            8.0,
+            2.0,
+            6.0,
+            2.5
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        5,
+        0
+      ],
+      "to": [
+        12,
+        8,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            0.0,
+            8.0,
+            0.75
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            5.25,
+            6.25,
+            6.0
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            0.75,
+            8.0,
+            1.5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            6.25,
+            5.25,
+            6.5,
+            6.0
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            7.0,
+            6.25,
+            5.0,
+            6.0
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            8.0,
+            5.0,
+            6.0,
+            5.25
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    }
+  },
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "trafficcontrol:block/streetlights/standard_street_light_8a",
+    "0": "trafficcontrol:block/streetlights/standard_street_light_8a",
+    "1": "trafficcontrol:block/streetlights/standard_street_light_8a",
+    "2": "trafficcontrol:block/streetlights/standard_street_light_8a",
+    "missing": "trafficcontrol:block/streetlights/standard_street_light_8a"
+  },
+  "render_type": "minecraft:cutout"
+}

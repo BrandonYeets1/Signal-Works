@@ -1,0 +1,58 @@
+{
+  "credit": "Signal Works modular overhead freeway guide panel",
+  "textures": {
+    "front": "minecraft:block/green_concrete",
+    "back": "minecraft:block/gray_concrete",
+    "border": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/green_concrete"
+  },
+  "elements": [
+    {
+      "name": "front_polygon",
+      "from": [-8, 3, 10.0],
+      "to": [24, 15, 10.1],
+      "faces": {"south": {"uv": [0, 0, 16, 16], "texture": "#front"}}
+    },
+    {
+      "name": "rear_polygon",
+      "from": [-8, 3, 9.9],
+      "to": [24, 15, 10.0],
+      "faces": {"north": {"uv": [0, 0, 16, 16], "texture": "#back"}}
+    },
+    {
+      "name": "top_border",
+      "from": [-8, 14.5, 10.1], "to": [24, 15, 10.2],
+      "faces": {"south": {"texture": "#border"}}
+    },
+    {
+      "name": "bottom_border",
+      "from": [-8, 3, 10.1], "to": [24, 3.5, 10.2],
+      "faces": {"south": {"texture": "#border"}}
+    },
+    {
+      "name": "left_border",
+      "from": [-8, 3, 10.1], "to": [-7.5, 15, 10.2],
+      "faces": {"south": {"texture": "#border"}}
+    },
+    {
+      "name": "right_border",
+      "from": [23.5, 3, 10.1], "to": [24, 15, 10.2],
+      "faces": {"south": {"texture": "#border"}}
+    },
+    {
+      "name": "left_mast_clamp",
+      "from": [-2, 14, 8.7], "to": [0, 17, 11.3],
+      "faces": {"north": {"texture": "#back"}, "east": {"texture": "#back"}, "south": {"texture": "#back"}, "west": {"texture": "#back"}, "up": {"texture": "#back"}, "down": {"texture": "#back"}}
+    },
+    {
+      "name": "right_mast_clamp",
+      "from": [16, 14, 8.7], "to": [18, 17, 11.3],
+      "faces": {"north": {"texture": "#back"}, "east": {"texture": "#back"}, "south": {"texture": "#back"}, "west": {"texture": "#back"}, "up": {"texture": "#back"}, "down": {"texture": "#back"}}
+    }
+  ],
+  "display": {
+    "gui": {"rotation": [20, 225, 0], "translation": [0, 0, 0], "scale": [0.45, 0.45, 0.45]},
+    "ground": {"translation": [0, 3, 0], "scale": [0.35, 0.35, 0.35]},
+    "fixed": {"rotation": [0, 180, 0], "scale": [0.45, 0.45, 0.45]}
+  }
+}

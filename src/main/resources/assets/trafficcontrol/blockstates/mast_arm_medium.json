@@ -1,0 +1,172 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "base": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/mast_arm_medium"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "base": "false"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/mast_arm_medium_core"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "base": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/mast_arm_medium",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "base": "false"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/mast_arm_medium_core",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "base": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/mast_arm_medium",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "base": "false"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/mast_arm_medium_core",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "base": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/mast_arm_medium",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "base": "false"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/mast_arm_medium_core",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "east": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_medium_branch",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "west": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_medium_branch",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "east": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_medium_branch",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "west": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_medium_branch",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "north": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_medium_branch"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "south": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_medium_branch",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "north": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_medium_branch"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "south": "true"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/signal_support_medium_branch",
+        "y": 180,
+        "uvlock": true
+      }
+    }
+  ]
+}

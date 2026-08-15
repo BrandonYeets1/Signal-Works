@@ -1,0 +1,295 @@
+{
+  "credit": "Made with Blockbench",
+  "elements": [
+    {
+      "from": [
+        4,
+        9,
+        0
+      ],
+      "to": [
+        12,
+        10,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            0.0625,
+            2.0,
+            0.125
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            1.5,
+            1.0,
+            1.5625
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            0.125,
+            2.0,
+            0.1875
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            0.0,
+            2.5,
+            0.0625
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.0,
+            0.0,
+            0.5,
+            1.0
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        10,
+        0
+      ],
+      "to": [
+        12,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            0.6875,
+            2.0,
+            0.75
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            0.8125,
+            1.9375,
+            0.875
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            0.75,
+            2.0,
+            0.8125
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            0.875,
+            1.9375,
+            0.9375
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            1.4375,
+            1.0,
+            1.0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            1.4375,
+            1.0,
+            1.875
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        10,
+        11
+      ],
+      "to": [
+        12,
+        11.5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            0.1875,
+            2.0,
+            0.25
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            0.25,
+            2.0,
+            0.3125
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            0.3125,
+            2.0,
+            0.375
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            0.375,
+            2.0,
+            0.4375
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            1.5,
+            0.0,
+            1.0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            0.0,
+            1.0,
+            0.5
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        7,
+        13
+      ],
+      "to": [
+        9,
+        9,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            1.5625,
+            0.125,
+            1.6875
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            0.9375,
+            1.6875,
+            1.0625
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.125,
+            1.5625,
+            0.25,
+            1.6875
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            1.0625,
+            1.6875,
+            1.1875
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.625,
+            1.375,
+            1.5,
+            1.1875
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            1.375,
+            1.5,
+            1.5625
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    }
+  },
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "trafficcontrol:block/streetlights/led_street_light_3",
+    "0": "trafficcontrol:block/streetlights/led_street_light_3",
+    "1": "trafficcontrol:block/streetlights/led_street_light_3",
+    "2": "trafficcontrol:block/streetlights/led_street_light_3",
+    "missing": "trafficcontrol:block/streetlights/led_street_light_3"
+  },
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,13 @@
+Traffic Control NeoForge 1.21.1 — Milestone 2.7.3 Static Validation
+JSON files parsed: 407
+Java files structurally checked: 25
+Icon PNG tree unchanged: True (61 files)
+horizontal pole item removed: PASS
+horizontal pole hidden from tab: PASS
+horizontal pole recipe removed: PASS
+stand tooltip translation: PASS
+front mast standoff method: PASS
+adjacent mast finder: PASS
+all 4 mount directions: PASS
+version: PASS
+Errors: 0

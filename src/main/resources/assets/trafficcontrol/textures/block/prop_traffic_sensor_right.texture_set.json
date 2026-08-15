@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "prop_traffic_sensor_right",
+		"metalness_emissive_roughness": "prop_traffic_sensor_right_mer",
+		"normal": "prop_traffic_sensor_right_normal"
+	}
+}

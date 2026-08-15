@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,deployed=false,lit=false": {
+      "model": "trafficcontrol:block/construction_message_board_stowed"
+    },
+    "facing=north,deployed=false,lit=true": {
+      "model": "trafficcontrol:block/construction_message_board_stowed"
+    },
+    "facing=north,deployed=true,lit=false": {
+      "model": "trafficcontrol:block/construction_message_board_deployed"
+    },
+    "facing=north,deployed=true,lit=true": {
+      "model": "trafficcontrol:block/construction_message_board_deployed"
+    },
+    "facing=east,deployed=false,lit=false": {
+      "model": "trafficcontrol:block/construction_message_board_stowed",
+      "y": 90
+    },
+    "facing=east,deployed=false,lit=true": {
+      "model": "trafficcontrol:block/construction_message_board_stowed",
+      "y": 90
+    },
+    "facing=east,deployed=true,lit=false": {
+      "model": "trafficcontrol:block/construction_message_board_deployed",
+      "y": 90
+    },
+    "facing=east,deployed=true,lit=true": {
+      "model": "trafficcontrol:block/construction_message_board_deployed",
+      "y": 90
+    },
+    "facing=south,deployed=false,lit=false": {
+      "model": "trafficcontrol:block/construction_message_board_stowed",
+      "y": 180
+    },
+    "facing=south,deployed=false,lit=true": {
+      "model": "trafficcontrol:block/construction_message_board_stowed",
+      "y": 180
+    },
+    "facing=south,deployed=true,lit=false": {
+      "model": "trafficcontrol:block/construction_message_board_deployed",
+      "y": 180
+    },
+    "facing=south,deployed=true,lit=true": {
+      "model": "trafficcontrol:block/construction_message_board_deployed",
+      "y": 180
+    },
+    "facing=west,deployed=false,lit=false": {
+      "model": "trafficcontrol:block/construction_message_board_stowed",
+      "y": 270
+    },
+    "facing=west,deployed=false,lit=true": {
+      "model": "trafficcontrol:block/construction_message_board_stowed",
+      "y": 270
+    },
+    "facing=west,deployed=true,lit=false": {
+      "model": "trafficcontrol:block/construction_message_board_deployed",
+      "y": 270
+    },
+    "facing=west,deployed=true,lit=true": {
+      "model": "trafficcontrol:block/construction_message_board_deployed",
+      "y": 270
+    }
+  }
+}

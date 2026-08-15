@@ -1,0 +1,616 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "south",
+        "mount": "wall"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_wall",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "mount": "mast"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_mast",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "mount": "hanging"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_hanging",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "false",
+        "tilt": "down_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_down_45",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "false",
+        "tilt": "down_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_down_22",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "false",
+        "tilt": "level"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_level",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "false",
+        "tilt": "up_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_up_22",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "false",
+        "tilt": "up_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_up_45",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "true",
+        "tilt": "down_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_down_45",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "true",
+        "tilt": "down_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_down_22",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "true",
+        "tilt": "level"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_level",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "true",
+        "tilt": "up_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_up_22",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "true",
+        "tilt": "up_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_up_45",
+        "y": 0,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "mount": "wall"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_wall",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "mount": "mast"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_mast",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "mount": "hanging"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_hanging",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "false",
+        "tilt": "down_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_down_45",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "false",
+        "tilt": "down_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_down_22",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "false",
+        "tilt": "level"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_level",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "false",
+        "tilt": "up_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_up_22",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "false",
+        "tilt": "up_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_up_45",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "true",
+        "tilt": "down_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_down_45",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "true",
+        "tilt": "down_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_down_22",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "true",
+        "tilt": "level"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_level",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "true",
+        "tilt": "up_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_up_22",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "true",
+        "tilt": "up_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_up_45",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "mount": "wall"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_wall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "mount": "mast"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_mast",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "mount": "hanging"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_hanging",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "false",
+        "tilt": "down_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_down_45",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "false",
+        "tilt": "down_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_down_22",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "false",
+        "tilt": "level"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_level",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "false",
+        "tilt": "up_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_up_22",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "false",
+        "tilt": "up_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_up_45",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "true",
+        "tilt": "down_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_down_45",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "true",
+        "tilt": "down_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_down_22",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "true",
+        "tilt": "level"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_level",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "true",
+        "tilt": "up_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_up_22",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "true",
+        "tilt": "up_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_up_45",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "mount": "wall"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_wall",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "mount": "mast"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_mast",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "mount": "hanging"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/camera_mount_hanging",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "false",
+        "tilt": "down_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_down_45",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "false",
+        "tilt": "down_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_down_22",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "false",
+        "tilt": "level"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_level",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "false",
+        "tilt": "up_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_up_22",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "false",
+        "tilt": "up_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_idle_up_45",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "true",
+        "tilt": "down_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_down_45",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "true",
+        "tilt": "down_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_down_22",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "true",
+        "tilt": "level"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_level",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "true",
+        "tilt": "up_22"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_up_22",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "true",
+        "tilt": "up_45"
+      },
+      "apply": {
+        "model": "trafficcontrol:block/traffic_camera_active_up_45",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
+}

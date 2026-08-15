@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "trafficcontrol:block/flasher_amber"
+      }
+    }
+  ]
+}

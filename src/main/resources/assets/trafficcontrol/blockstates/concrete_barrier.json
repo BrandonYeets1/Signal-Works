@@ -1,0 +1,54 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_core", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_core", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_core" }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_core" }
+    },
+
+    {
+      "when": { "facing": "north", "east": "false" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_cap", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "facing": "north", "west": "false" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_cap", "y": 270, "uvlock": true }
+    },
+    {
+      "when": { "facing": "south", "east": "false" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_cap", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "facing": "south", "west": "false" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_cap", "y": 270, "uvlock": true }
+    },
+
+    {
+      "when": { "facing": "east", "north": "false" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_cap" }
+    },
+    {
+      "when": { "facing": "east", "south": "false" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_cap", "y": 180, "uvlock": true }
+    },
+    {
+      "when": { "facing": "west", "north": "false" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_cap" }
+    },
+    {
+      "when": { "facing": "west", "south": "false" },
+      "apply": { "model": "trafficcontrol:block/concrete_barrier_cap", "y": 180, "uvlock": true }
+    }
+  ]
+}

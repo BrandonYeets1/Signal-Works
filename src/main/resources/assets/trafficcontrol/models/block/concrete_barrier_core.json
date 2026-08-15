@@ -1,0 +1,89 @@
+{
+  "textures": {
+    "0": "trafficcontrol:block/generic",
+    "particle": "trafficcontrol:block/generic"
+  },
+  "elements": [
+    {
+      "from": [
+        5.5,
+        0,
+        0
+      ],
+      "to": [
+        10.5,
+        16,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#0"
+        },
+        "west": {
+          "texture": "#0"
+        },
+        "up": {
+          "texture": "#0"
+        },
+        "down": {
+          "texture": "#0"
+        }
+      },
+      "name": "Barrier wall"
+    },
+    {
+      "from": [
+        1.5,
+        0,
+        0
+      ],
+      "to": [
+        5.5,
+        5.3,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#0"
+        },
+        "west": {
+          "texture": "#0"
+        },
+        "up": {
+          "texture": "#0"
+        },
+        "down": {
+          "texture": "#0"
+        }
+      },
+      "name": "Left foot"
+    },
+    {
+      "from": [
+        10.5,
+        0,
+        0
+      ],
+      "to": [
+        14.5,
+        5.3,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#0"
+        },
+        "west": {
+          "texture": "#0"
+        },
+        "up": {
+          "texture": "#0"
+        },
+        "down": {
+          "texture": "#0"
+        }
+      },
+      "name": "Right foot"
+    }
+  ]
+}

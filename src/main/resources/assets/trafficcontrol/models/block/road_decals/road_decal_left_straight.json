@@ -1,0 +1,72 @@
+{
+  "ambientocclusion": false,
+  "render_type": "cutout",
+  "textures": {
+    "decal": "trafficcontrol:block/road_decals/road_decal_left_straight",
+    "particle": "trafficcontrol:block/road_decals/road_decal_left_straight"
+  },
+  "elements": [
+    {
+      "name": "road_decal_surface",
+      "from": [
+        -16,
+        0,
+        -16
+      ],
+      "to": [
+        32,
+        0.1,
+        32
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#decal"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "scale": [
+        0.28,
+        0.28,
+        0.28
+      ]
+    },
+    "ground": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+CHANGED FILES:
+src/main/java/com/clussmanproductions/trafficcontrol/block/RotatablePoleBlock.java
+src/main/resources/META-INF/neoforge.mods.toml
+src/main/resources/assets/trafficcontrol/blockstates/crossing_gate_lamps_ne_lamp.json
+src/main/resources/assets/trafficcontrol/blockstates/crossing_gate_lamps_nw_lamp.json
+src/main/resources/assets/trafficcontrol/blockstates/crossing_gate_lamps_se_lamp.json
+src/main/resources/assets/trafficcontrol/blockstates/crossing_gate_lamps_sw_lamp.json
+src/main/resources/assets/trafficcontrol/blockstates/crossing_gate_light.json
+src/main/resources/assets/trafficcontrol/blockstates/mast_arm_large.json
+src/main/resources/assets/trafficcontrol/blockstates/mast_arm_medium.json
+src/main/resources/assets/trafficcontrol/blockstates/mast_arm_small.json
+src/main/resources/assets/trafficcontrol/blockstates/overhead_lamps_ne_lamp.json
+src/main/resources/assets/trafficcontrol/blockstates/overhead_lamps_nw_lamp.json
+src/main/resources/assets/trafficcontrol/blockstates/overhead_lamps_se_lamp.json
+src/main/resources/assets/trafficcontrol/blockstates/overhead_lamps_sw_lamp.json
+src/main/resources/assets/trafficcontrol/blockstates/signal_pole_large.json
+src/main/resources/assets/trafficcontrol/blockstates/signal_pole_medium.json
+src/main/resources/assets/trafficcontrol/blockstates/signal_pole_small.json
+src/main/resources/assets/trafficcontrol/blockstates/vertical_wig_wag_arm.json
+src/main/resources/assets/trafficcontrol/models/block/mast_arm_large.json
+src/main/resources/assets/trafficcontrol/models/block/mast_arm_medium.json
+src/main/resources/assets/trafficcontrol/models/block/mast_arm_small.json
+src/main/resources/assets/trafficcontrol/models/block/signal_pole_large.json
+src/main/resources/assets/trafficcontrol/models/block/signal_pole_medium.json
+src/main/resources/assets/trafficcontrol/models/block/signal_pole_small.json
+
+DEVELOPMENT FILES MOVED OUT OF RUNTIME:
+src/development/blockbench/lane_control/lane_control_no_ahead_on.bbmodel
+src/development/blockbench/lane_control/lane_control_no_right_on.bbmodel
+src/development/blockbench/lane_control/lane_control_off.bbmodel
+src/development/blockbench/streetlights/classic_street_light_bb.bbmodel
+src/development/blockbench/streetlights/classic_street_light_c.bbmodel
+
+DELETIONS PERFORMED BY APPLY SCRIPT:
+src/main/resources/assets/trafficcontrol/textures/blocks/
+src/main/resources/assets/trafficcontrol/textures/items/
+src/main/resources/assets/trafficcontrol/recipes/
+five runtime .bbmodel files moved to src/development/blockbench/

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "trafficcontrol:block/red_arrow_u_turn"
+  }
+}

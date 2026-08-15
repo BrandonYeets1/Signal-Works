@@ -1,0 +1,57 @@
+{
+  "credit": "Signal Works freeway ramp-meter housing",
+  "textures": {
+    "housing": "trafficcontrol:block/prop_lanecontrol_head",
+    "lens": "trafficcontrol:block/black",
+    "particle": "trafficcontrol:block/prop_lanecontrol_head"
+  },
+  "elements": [
+    {
+      "name": "housing",
+      "from": [3.2, 1.5, 8.7],
+      "to": [12.8, 15.5, 10.1],
+      "faces": {
+        "north": {"texture": "#housing"}, "east": {"texture": "#housing"},
+        "south": {"texture": "#housing"}, "west": {"texture": "#housing"},
+        "up": {"texture": "#housing"}, "down": {"texture": "#housing"}
+      }
+    },
+    {
+      "name": "upper_lens_backing",
+      "from": [5.2, 9.0, 10.05],
+      "to": [10.8, 14.5, 10.15],
+      "faces": {"south": {"uv": [0, 0, 16, 16], "texture": "#lens"}}
+    },
+    {
+      "name": "lower_lens_backing",
+      "from": [5.2, 2.5, 10.05],
+      "to": [10.8, 8.0, 10.15],
+      "faces": {"south": {"uv": [0, 0, 16, 16], "texture": "#lens"}}
+    },
+    {
+      "name": "upper_visor",
+      "from": [4.2, 14.3, 9.9],
+      "to": [11.8, 14.9, 14.0],
+      "faces": {
+        "north": {"texture": "#housing"}, "east": {"texture": "#housing"},
+        "south": {"texture": "#housing"}, "west": {"texture": "#housing"},
+        "up": {"texture": "#housing"}, "down": {"texture": "#housing"}
+      }
+    },
+    {
+      "name": "lower_visor",
+      "from": [4.2, 7.8, 9.9],
+      "to": [11.8, 8.4, 14.0],
+      "faces": {
+        "north": {"texture": "#housing"}, "east": {"texture": "#housing"},
+        "south": {"texture": "#housing"}, "west": {"texture": "#housing"},
+        "up": {"texture": "#housing"}, "down": {"texture": "#housing"}
+      }
+    }
+  ],
+  "display": {
+    "gui": {"rotation": [20, 225, 0], "translation": [0, 0, 0], "scale": [0.75, 0.75, 0.75]},
+    "ground": {"translation": [0, 3, 0], "scale": [0.5, 0.5, 0.5]},
+    "fixed": {"rotation": [0, 180, 0], "scale": [0.75, 0.75, 0.75]}
+  }
+}

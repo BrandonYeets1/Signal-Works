@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,occupied=false": {
+      "model": "trafficcontrol:block/detection/traffic_sensor_bus"
+    },
+    "facing=north,occupied=true": {
+      "model": "trafficcontrol:block/detection/traffic_sensor_bus"
+    },
+    "facing=east,occupied=false": {
+      "model": "trafficcontrol:block/detection/traffic_sensor_bus",
+      "y": 90
+    },
+    "facing=east,occupied=true": {
+      "model": "trafficcontrol:block/detection/traffic_sensor_bus",
+      "y": 90
+    },
+    "facing=south,occupied=false": {
+      "model": "trafficcontrol:block/detection/traffic_sensor_bus",
+      "y": 180
+    },
+    "facing=south,occupied=true": {
+      "model": "trafficcontrol:block/detection/traffic_sensor_bus",
+      "y": 180
+    },
+    "facing=west,occupied=false": {
+      "model": "trafficcontrol:block/detection/traffic_sensor_bus",
+      "y": 270
+    },
+    "facing=west,occupied=true": {
+      "model": "trafficcontrol:block/detection/traffic_sensor_bus",
+      "y": 270
+    }
+  }
+}

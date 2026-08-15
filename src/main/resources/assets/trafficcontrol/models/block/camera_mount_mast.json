@@ -1,0 +1,112 @@
+{
+  "textures": {
+    "metal": "trafficcontrol:block/generic",
+    "body": "trafficcontrol:block/black_textured",
+    "white": "trafficcontrol:block/generic",
+    "black": "trafficcontrol:block/black",
+    "green": "trafficcontrol:block/green",
+    "red": "trafficcontrol:block/red",
+    "particle": "trafficcontrol:block/generic"
+  },
+  "elements": [
+    {
+      "name": "mast_stem",
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        7.5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "south": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        }
+      }
+    },
+    {
+      "name": "mast_saddle",
+      "from": [
+        4.5,
+        0,
+        5.75
+      ],
+      "to": [
+        11.5,
+        2.5,
+        10.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "south": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        }
+      }
+    },
+    {
+      "name": "swivel",
+      "from": [
+        6.25,
+        6.25,
+        6.25
+      ],
+      "to": [
+        9.75,
+        9.75,
+        9.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "south": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        }
+      }
+    }
+  ]
+}

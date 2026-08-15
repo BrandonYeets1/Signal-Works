@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "trafficcontrol:block/streetlights/dim_street_light_2"
+    },
+    "facing=north,lit=true": {
+      "model": "trafficcontrol:block/streetlights/dim_street_light_2"
+    },
+    "facing=east,lit=false": {
+      "model": "trafficcontrol:block/streetlights/dim_street_light_2",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,lit=true": {
+      "model": "trafficcontrol:block/streetlights/dim_street_light_2",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,lit=false": {
+      "model": "trafficcontrol:block/streetlights/dim_street_light_2",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,lit=true": {
+      "model": "trafficcontrol:block/streetlights/dim_street_light_2",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,lit=false": {
+      "model": "trafficcontrol:block/streetlights/dim_street_light_2",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,lit=true": {
+      "model": "trafficcontrol:block/streetlights/dim_street_light_2",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

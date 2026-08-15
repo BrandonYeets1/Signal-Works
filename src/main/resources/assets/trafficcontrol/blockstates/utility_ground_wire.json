@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"trafficcontrol:block/utilities/utility_ground_wire"},"facing=east":{"model":"trafficcontrol:block/utilities/utility_ground_wire","y":90},"facing=south":{"model":"trafficcontrol:block/utilities/utility_ground_wire","y":180},"facing=west":{"model":"trafficcontrol:block/utilities/utility_ground_wire","y":270}}}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"trafficcontrol:block/utilities/pole_transformer"},"facing=east":{"model":"trafficcontrol:block/utilities/pole_transformer","y":90},"facing=south":{"model":"trafficcontrol:block/utilities/pole_transformer","y":180},"facing=west":{"model":"trafficcontrol:block/utilities/pole_transformer","y":270}}}

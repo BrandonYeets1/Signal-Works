@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "rotation=0,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=0,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=1,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=1,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=2,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=2,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=3,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=3,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=4,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=4,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=5,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=5,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=6,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=6,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=7,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=7,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=8,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=8,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=9,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=9,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=10,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=10,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=11,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=11,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=12,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=12,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=13,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=13,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=14,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=14,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=15,lit=true": {
+      "model": "trafficcontrol:block/empty"
+    },
+    "rotation=15,lit=false": {
+      "model": "trafficcontrol:block/empty"
+    }
+  }
+}

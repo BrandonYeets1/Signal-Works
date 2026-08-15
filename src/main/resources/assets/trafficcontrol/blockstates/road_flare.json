@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,lit=true": {"model": "trafficcontrol:block/road_flare_lit"},
+    "facing=east,lit=true": {"model": "trafficcontrol:block/road_flare_lit", "y": 90},
+    "facing=south,lit=true": {"model": "trafficcontrol:block/road_flare_lit", "y": 180},
+    "facing=west,lit=true": {"model": "trafficcontrol:block/road_flare_lit", "y": 270},
+    "facing=north,lit=false": {"model": "trafficcontrol:block/road_flare_unlit"},
+    "facing=east,lit=false": {"model": "trafficcontrol:block/road_flare_unlit", "y": 90},
+    "facing=south,lit=false": {"model": "trafficcontrol:block/road_flare_unlit", "y": 180},
+    "facing=west,lit=false": {"model": "trafficcontrol:block/road_flare_unlit", "y": 270}
+  }
+}

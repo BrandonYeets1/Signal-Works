@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="CSX8600; NeoForge port by DgtlBrandxn"
+logoFile="signal_works.png"
+description='''
+Signal Works Core is a realistic traffic-infrastructure platform for NeoForge 1.21.1. Build synchronized
+intersections with protected movements, pedestrian phases, detection, programmable controllers,
+modular signal supports, editable municipal signs, a searchable USDOT road-sign catalog, roadway lighting, portable construction equipment, and railroad-crossing hardware.
+
+This project evolved from CSX8600's Traffic Control. The legacy trafficcontrol mod ID, namespaces,
+registry names, and saved-world data are intentionally preserved for compatibility.
+'''
+
+[[dependencies.trafficcontrol]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.trafficcontrol]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

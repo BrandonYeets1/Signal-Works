@@ -1,0 +1,15 @@
+Signal Works Core 3.5.1 validation
+==================================
+
+Target: Minecraft 1.21.1 / NeoForge 21.1.240 / Java 21
+
+- 12 changed/new Java source units compiled successfully with javac --release 21.
+- 29 changed/new class files were produced, including required inner classes.
+- The packaged JAR was assembled over the validated 3.5.0 JAR with only changed classes/resources overlaid.
+- All 564 JSON resources in the packaged JAR parsed successfully.
+- The packaged JAR contains no duplicate ZIP entries.
+- The one-section signal, ramp-meter, road-flare, controller-screen, lamp-technology, freeway-sign and message-board resources/classes are present.
+- The obsolete flat traffic-drum icon is absent; the drum item model points to the block model.
+- Lamp-technology overlays are restricted to circular vehicle lenses.
+- Full Gradle wrapper execution was attempted, but the wrapper could not reach services.gradle.org to obtain Gradle 9.2.1.
+- The packaged JAR was not launched inside Minecraft in this environment.

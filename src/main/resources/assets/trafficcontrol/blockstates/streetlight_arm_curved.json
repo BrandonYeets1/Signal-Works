@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trafficcontrol:block/streetlight_arms/curved"
+    },
+    "facing=east": {
+      "model": "trafficcontrol:block/streetlight_arms/curved",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "trafficcontrol:block/streetlight_arms/curved",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "trafficcontrol:block/streetlight_arms/curved",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

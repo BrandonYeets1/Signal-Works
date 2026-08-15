@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "lit=false,rotation=0": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=0": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=1": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=1": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=2": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=2": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=3": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=3": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=4": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=4": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=5": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=5": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=6": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=6": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=7": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=7": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=8": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=8": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=9": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=9": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=10": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=10": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=11": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=11": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=12": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=12": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=13": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=13": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=14": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=14": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=false,rotation=15": {
+      "model": "trafficcontrol:block/street_light_double"
+    },
+    "lit=true,rotation=15": {
+      "model": "trafficcontrol:block/street_light_double"
+    }
+  }
+}

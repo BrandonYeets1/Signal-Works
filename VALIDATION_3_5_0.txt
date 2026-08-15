@@ -1,0 +1,13 @@
+Signal Works Core 3.5.0 validation
+==================================
+
+Target: Minecraft 1.21.1 / NeoForge 21.1.240 / Java 21
+
+- Changed Java sources compiled successfully with javac --release 21 against the existing 3.4.15 JAR and NeoForge development JAR.
+- 42 changed/new class files were produced.
+- 560 JSON resources inside the packaged JAR parsed successfully.
+- The packaged JAR contains no duplicate ZIP entries.
+- Required ramp-meter, freeway-sign, pedestrian-button sound, controller, and renderer resources are present.
+- No texture files differ from the 3.4.15 source baseline.
+- Full Gradle wrapper execution was unavailable because the build environment could not download its Gradle distribution.
+- The packaged JAR was not launched inside Minecraft in this environment.

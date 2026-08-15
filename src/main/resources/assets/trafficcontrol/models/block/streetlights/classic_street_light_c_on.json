@@ -1,0 +1,111 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "trafficcontrol:block/streetlights/prop_streetlight_LED_on",
+		"particle": "trafficcontrol:block/streetlights/prop_streetlight_LED_on"
+	},
+	"elements": [
+		{
+			"from": [5, 6, 9],
+			"to": [11, 9, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"north": {"uv": [6.375, 9.875, 7.875, 10.625], "texture": "#1"},
+				"east": {"uv": [4.375, 10.125, 5.125, 10.875], "texture": "#1"},
+				"south": {"uv": [2.875, 12.25, 4.375, 13], "texture": "#1"},
+				"west": {"uv": [6.5, 11.75, 7.25, 12.5], "texture": "#1"},
+				"up": {"uv": [3.125, 11, 1.625, 10.25], "texture": "#1"},
+				"down": {"uv": [10, 12.375, 14, 14.875], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 6, 12],
+			"to": [10, 10, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 12.125, 8, 16], "texture": "#1"},
+				"east": {"uv": [0, 8, 4, 16], "texture": "#1"},
+				"south": {"uv": [8, 16, 0, 8], "texture": "#1"},
+				"west": {"uv": [0, 8, 4, 16], "texture": "#1"},
+				"up": {"uv": [8, 16, 0, 12], "texture": "#1"},
+				"down": {"uv": [8, 12.125, 0, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 7, 13],
+			"to": [10, 10, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"east": {"uv": [0, 8, 4.25, 16], "texture": "#1"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#1"},
+				"west": {"uv": [0, 8, 4.25, 16], "texture": "#1"},
+				"up": {"uv": [8, 16, 0, 12.25], "texture": "#1"},
+				"down": {"uv": [8, 12.25, 0, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "pole_bridge",
+			"from": [7, 7, 14],
+			"to": [9, 9, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"east": {"uv": [8, 16, 0, 8], "texture": "#1"},
+				"south": {"uv": [8, 16, 0, 8], "texture": "#1"},
+				"west": {"uv": [8, 16, 0, 8], "texture": "#1"},
+				"up": {"uv": [8, 16, 0, 8], "texture": "#1"},
+				"down": {"uv": [8, 16, 0, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "photocell",
+			"from": [7, 8, 6],
+			"to": [9, 10, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.5, 0]},
+			"faces": {
+				"north": {"uv": [9.625, 7.125, 9.625, 7.125], "texture": "#1"},
+				"east": {"uv": [9.625, 7.125, 9.625, 7.125], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [9.625, 7.125, 9.625, 7.125], "texture": "#1"},
+				"west": {"uv": [9.625, 7.125, 9.625, 7.125], "texture": "#1"},
+				"up": {"uv": [9.625, 7.125, 9.625, 7.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5, 7, 5],
+			"to": [11, 8, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"north": {"uv": [2.5, 10.875, 7, 14.125], "texture": "#1"},
+				"east": {"uv": [3.375, 11.875, 5.5, 13.375], "texture": "#1"},
+				"west": {"uv": [2.375, 11, 6.625, 14.125], "texture": "#1"},
+				"up": {"uv": [5.125, 13.25, 3.625, 12.25], "texture": "#1"}
+			}
+		},
+		{
+			"name": "bulb_head",
+			"from": [4, 6, 0],
+			"to": [12, 7, 9],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"north": {"uv": [0.75, 10.25, 4.75, 10.75], "texture": "#1"},
+				"east": {"uv": [0.75, 9.5, 5.25, 10], "texture": "#1"},
+				"south": {"uv": [0.125, 9.25, 6.75, 12.125], "texture": "#1"},
+				"west": {"uv": [0.75, 11.25, 5.25, 11.75], "texture": "#1"},
+				"up": {"uv": [9.75, 13.25, 5.75, 8.75], "texture": "#1"},
+				"down": {"uv": [8, 0, 0, 8], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "classic_streetlight_c",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

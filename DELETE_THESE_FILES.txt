@@ -1,0 +1,7 @@
+These obsolete single-channelizer assets should be deleted when applying the patch to a source tree:
+
+src/main/resources/assets/trafficcontrol/models/block/channelizer.json
+src/main/resources/assets/trafficcontrol/textures/item/icons/channelizer.png
+src/main/resources/assets/trafficcontrol/recipes/channelizer.json
+
+Do not delete the channelizer blockstate or item model. They are intentional hidden compatibility aliases that now point to the orange channelizer.

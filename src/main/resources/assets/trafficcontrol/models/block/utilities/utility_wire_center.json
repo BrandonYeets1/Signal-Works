@@ -1,0 +1,1 @@
+{"parent":"block/block","textures":{"wire":"minecraft:block/black_concrete","particle":"minecraft:block/black_concrete"},"elements":[{"from":[7,7,7],"to":[9,9,9],"faces":{"north":{"texture":"#wire"},"south":{"texture":"#wire"},"east":{"texture":"#wire"},"west":{"texture":"#wire"},"up":{"texture":"#wire"},"down":{"texture":"#wire"}}}]}

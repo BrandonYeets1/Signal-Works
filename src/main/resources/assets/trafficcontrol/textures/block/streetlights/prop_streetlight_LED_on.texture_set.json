@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "prop_streetlight_LED_on",
+		"metalness_emissive_roughness": "prop_streetlight_led_on_e"
+	}
+}

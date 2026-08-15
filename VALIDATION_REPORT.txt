@@ -1,0 +1,16 @@
+Signal Works Core 3.4.13 validation
+
+PASS: RotatablePoleBlock compiled with Java 21 against the project NeoForge 21.1.240/Minecraft 1.21.1 development jars.
+PASS: Compiled class exposes the new BASE block-state property.
+PASS: All 452 runtime JSON files parse successfully.
+PASS: All six pole/mast blockstates contain both base and core model mappings.
+PASS: 907 built-in road-sign catalog entries still resolve to their source textures.
+PASS: No canonical texture pixels were changed.
+PASS: Removed texture folders were byte-identical duplicates: 985 block textures and 22 item textures.
+PASS: 84 obsolete Forge 1.12 recipe files were removed from assets/trafficcontrol/recipes.
+PASS: Five Blockbench project files were moved outside runtime resources and preserved under src/development/blockbench.
+PASS: No plural textures/blocks or textures/items paths remain in the JAR.
+PASS: No .bbmodel development files are packaged in the JAR.
+PASS: JAR metadata reports 2.0.0-alpha.3.4.13 and the archive contains no duplicate entries.
+
+The full Gradle wrapper task was not run in this environment. The changed Java class was compiled directly against the project's cached NeoForge development artifacts, and the final JAR was assembled over the working 3.4.12 build with the user's updated source resources.

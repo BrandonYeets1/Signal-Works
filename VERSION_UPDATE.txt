@@ -1,0 +1,2 @@
+mod_version=3.5.7-alpha
+mod_artifact_version=a3.5.7

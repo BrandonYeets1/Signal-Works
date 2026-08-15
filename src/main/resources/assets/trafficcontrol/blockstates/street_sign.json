@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "rotation=0": { "model": "trafficcontrol:block/empty" },
+    "rotation=1": { "model": "trafficcontrol:block/empty" },
+    "rotation=2": { "model": "trafficcontrol:block/empty" },
+    "rotation=3": { "model": "trafficcontrol:block/empty" },
+    "rotation=4": { "model": "trafficcontrol:block/empty" },
+    "rotation=5": { "model": "trafficcontrol:block/empty" },
+    "rotation=6": { "model": "trafficcontrol:block/empty" },
+    "rotation=7": { "model": "trafficcontrol:block/empty" },
+    "rotation=8": { "model": "trafficcontrol:block/empty" },
+    "rotation=9": { "model": "trafficcontrol:block/empty" },
+    "rotation=10": { "model": "trafficcontrol:block/empty" },
+    "rotation=11": { "model": "trafficcontrol:block/empty" },
+    "rotation=12": { "model": "trafficcontrol:block/empty" },
+    "rotation=13": { "model": "trafficcontrol:block/empty" },
+    "rotation=14": { "model": "trafficcontrol:block/empty" },
+    "rotation=15": { "model": "trafficcontrol:block/empty" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "trafficcontrol:block/freeway_guide_sign", "y": 180},
+    "facing=east": {"model": "trafficcontrol:block/freeway_guide_sign", "y": 270},
+    "facing=south": {"model": "trafficcontrol:block/freeway_guide_sign"},
+    "facing=west": {"model": "trafficcontrol:block/freeway_guide_sign", "y": 90}
+  }
+}

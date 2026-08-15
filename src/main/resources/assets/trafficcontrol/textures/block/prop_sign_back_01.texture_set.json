@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "prop_sign_back_01",
+		"metalness_emissive_roughness": "prop_sign_back_01_mer",
+		"normal": "prop_sign_back_01_normal"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"4": "trafficcontrol:block/prop_pedcrossbutton"
+	},
+	"elements": [
+		{
+			"name": "rear_plate",
+			"from": [6, 3, 14.5],
+			"to": [11, 13.5, 15.75],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#4"},
+				"east": {"uv": [8, 0, 16, 8], "texture": "#4"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#4"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#4"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#4"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "sign_face",
+			"from": [6.4, 7.2, 14.2],
+			"to": [10.6, 13, 14.55],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#4"},
+				"east": {"uv": [0, 5.25, 0.1, 13.05], "texture": "#4"},
+				"west": {"uv": [0, 5.25, 0.1, 13.05], "texture": "#4"},
+				"up": {"uv": [0, 5.25, 0.1, 13.05], "texture": "#4"},
+				"down": {"uv": [0, 5.25, 0.1, 13.05], "texture": "#4"}
+			}
+		},
+		{
+			"name": "button_housing",
+			"from": [7, 3.5, 13.2],
+			"to": [10, 6.5, 14.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 2]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#4"},
+				"east": {"uv": [14.6, 0, 16, 4.5], "texture": "#4"},
+				"west": {"uv": [14.6, 0, 16, 4.5], "texture": "#4"},
+				"up": {"uv": [12, 0, 16, 1.4], "texture": "#4"},
+				"down": {"uv": [12, 0, 16, 1.4], "texture": "#4"}
+			}
+		},
+		{
+			"name": "button",
+			"from": [7.8, 4.25, 12.95],
+			"to": [9.2, 5.65, 13.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 2]},
+			"faces": {
+				"north": {"uv": [8.8, 8.85, 15.2, 15.25], "texture": "#4"},
+				"east": {"uv": [9, 10.6, 9.5, 13], "texture": "#4"},
+				"west": {"uv": [9, 10.6, 9.5, 13], "texture": "#4"},
+				"up": {"uv": [10.8, 9, 13.2, 9.5], "texture": "#4"},
+				"down": {"uv": [10.8, 9, 13.2, 9.5], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [1.25, 5, 7.5]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -1.75, 0]
+		}
+	}
+}

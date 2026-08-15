@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "trafficcontrol:signal_pole_small",
+    "trafficcontrol:signal_pole_medium",
+    "trafficcontrol:signal_pole_large",
+    "trafficcontrol:mast_arm_small",
+    "trafficcontrol:mast_arm_medium",
+    "trafficcontrol:mast_arm_large"
+  ]
+}

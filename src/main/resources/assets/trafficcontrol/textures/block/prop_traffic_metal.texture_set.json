@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "prop_traffic_metal",
+		"metalness_emissive_roughness": "prop_traffic_metal_s",
+		"normal": "prop_traffic_metal_n"
+	}
+}

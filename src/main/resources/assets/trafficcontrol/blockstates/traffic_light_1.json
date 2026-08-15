@@ -1,0 +1,5 @@
+{
+  "multipart": [
+    {"apply": {"model": "trafficcontrol:block/traffic_light_1"}}
+  ]
+}
